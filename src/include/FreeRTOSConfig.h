@@ -30,6 +30,7 @@
 #ifndef FREERTOS_CONFIG_H
 #define FREERTOS_CONFIG_H
 
+
 /******************************************************************************/
 /* Hardware description related definitions. **********************************/
 /******************************************************************************/
@@ -604,5 +605,7 @@ extern void vAssertCalled( uint32_t ulLine, const char *pcFile ) noexcept __attr
 #define vPortSVCHandler SVC_Handler
 #define xPortSysTickHandler SysTick_Handler		// the name used by everything else
 #endif
+
+#include "SEGGER_SYSVIEW_FreeRTOS.h"
 
 #endif /* FREERTOS_CONFIG_H */

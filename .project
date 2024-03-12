@@ -23,4 +23,24 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
+	<filteredResources>
+		<filter>
+			<id>1669691193386</id>
+			<name>src/systemview/SEGGER</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-SEGGER_RTT_ASM_ARMv7M.S</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1669687301596</id>
+			<name>src/systemview/SEGGER/Syscalls</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-SEGGER_RTT_Syscalls_GCC.c</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
 </projectDescription>
