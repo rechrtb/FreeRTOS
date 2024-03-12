@@ -588,7 +588,7 @@ extern void vAssertCalled( uint32_t ulLine, const char *pcFile ) noexcept __attr
 #define INCLUDE_xTaskAbortDelay                0
 #define INCLUDE_xTaskGetHandle                 0
 #define INCLUDE_xTaskResumeFromISR             1
-#define INCLUDE_xQueueGetMutexHolder		   1
+#define INCLUDE_xQueueGetMutexHolder           1
 
 // Extra bits for RRF
 #define configINCLUDE_FREERTOS_TASK_C_ADDITIONS_H	1
@@ -606,6 +606,6 @@ extern void vAssertCalled( uint32_t ulLine, const char *pcFile ) noexcept __attr
 #define xPortSysTickHandler SysTick_Handler		// the name used by everything else
 #endif
 
-#include "SEGGER_SYSVIEW_FreeRTOS.h"
+// #include "SEGGER_SYSVIEW_FreeRTOS.h"
 
 #endif /* FREERTOS_CONFIG_H */

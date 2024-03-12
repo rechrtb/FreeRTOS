@@ -151,6 +151,7 @@ Notes:
 #define apiID_XSTREAMBUFFERRECEIVEFROMISR         (111u)
 
 #define traceSTART()                                                            SEGGER_SYSVIEW_Conf()
+#define traceEND()                                                              SEGGER_SYSVIEW_Stop()
 
 #define traceTASK_NOTIFY_TAKE(uxIndexToWait)                                    SEGGER_SYSVIEW_RecordU32x2(apiID_OFFSET + apiID_ULTASKNOTIFYTAKE, xClearCountOnExit, xTicksToWait)
 #define traceTASK_DELAY()                                                       SEGGER_SYSVIEW_RecordU32  (apiID_OFFSET + apiID_VTASKDELAY, xTicksToDelay)
